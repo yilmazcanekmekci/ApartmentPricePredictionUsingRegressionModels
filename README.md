@@ -58,12 +58,12 @@ Models Evaluated with 5-Fold Cross Validation
 
 | Model               | RMSE           | MAE            | R²       | Scaled |
 |--------------------|----------------|----------------|----------|--------|
-| XGBoost Regressor  | 93,259 ± 1,146 | 67,799 ± 486   | 0.9530   | No     |
-| LightGBM Regressor | 93,352 ± 1,051 | 68,009 ± 444   | 0.9529   | No     |
-| Linear Regression  | 170,105 ± 2,707| 118,581 ± 626  | 0.8436   | Yes    |
-| Ridge Regression   | 170,105 ± 2,707| 118,579 ± 626  | 0.8436   | Yes    |
-| Lasso Regression   | 170,105 ± 2,707| 118,567 ± 625  | 0.8436   | Yes    |
-| SVR (Linear Kernel)| 226,843 ± 4,347| 126,795 ± 1,136| 0.7219   | Yes    |
+| XGBoost Regressor  | 93,259.95 ± 1,146.38 | 67,799 ± 486   | 0.9530   | No     |
+| LightGBM Regressor | 93,352.89 ± 1,051.30 | 68,009 ± 444   | 0.9529   | No     |
+| Linear Regression  | 170,105.79 ± 2,707.26 | 118,581 ± 626  | 0.8436   | Yes    |
+| Ridge Regression   | 170,105.79 ± 2,707.44 | 118,579 ± 626  | 0.8436   | Yes    |
+| Lasso Regression   | 170,105.57 ± 2,707.10 | 118,567 ± 625  | 0.8436   | Yes    |
+| SVR (Linear Kernel)| 226,843.86 ± 4,347.37 | 126,795 ± 1,136| 0.7219   | Yes    |
 
 The best performance was achieved using XGBoost with optimized hyperparameters (via Optuna, 50 trials). It effectively handled non-linearity, multicollinearity, and complex feature interactions.
 
