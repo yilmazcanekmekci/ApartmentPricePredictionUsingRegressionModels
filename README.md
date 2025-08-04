@@ -1,6 +1,6 @@
 # ApartmentPricePredictionUsingRegressionModels
 
-# 1. Introduction
+## 1. Introduction
 
 This repository contains a complete machine learning pipeline for predicting apartment prices using structured tabular data. The project combines spatial, temporal, structural, and macroeconomic features to develop a robust regression model. The final model is based on XGBoost, selected for its high predictive power and interpretability.
 
